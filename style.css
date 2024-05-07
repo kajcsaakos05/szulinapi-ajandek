@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('hatter.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(241, 165, 165);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    display: flex;
+    flex-direction: column;
+}
+
+#felso{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#felso h1{
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#felso h2{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#maradek{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.valaszok{
+    width: 90%;
+    height: 20%;
+    background-color: wheat;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.valaszok a{
+    align-items: center;
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 15pt;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.valaszok:hover{
+    background-color: rgb(203, 184, 150);
+    cursor: pointer;
+}
+
+#visszagomb{
+    width: 50%;
+    height: 40%;
+    background-color: wheat;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#visszagomb:hover{
+    background-color: rgb(203, 203, 179);
+    cursor: pointer;
+}
+
+#szulinap{
+    height: 50%;
+    background-color: beige;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    font-size: 20pt;
+    text-align: center;
+    color: palevioletred;
+    font-weight: 900;
+}
+
+#szulinap:hover{
+    cursor: pointer;
+    background-color: rgb(203, 203, 179);
+}
